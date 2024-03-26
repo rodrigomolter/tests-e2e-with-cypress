@@ -1,3 +1,4 @@
+/// <reference path="../support/commands.d.ts" />
 import { faker } from '@faker-js/faker/locale/en'
 
 describe('Sign up', () => {
@@ -8,4 +9,3 @@ describe('Sign up', () => {
     cy.contains('a', 'Create a new note').should('be.visible')
   })
 })
-

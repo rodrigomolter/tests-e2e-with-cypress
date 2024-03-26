@@ -1,3 +1,4 @@
+/// <reference path="../support/commands.d.ts" />
 describe('Login', () => {
   it('Sucessfully logs in', () => {
     cy.gui_login()

@@ -1,7 +1,7 @@
 {
   "name": "tests-e2e-with-cypress",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample project to demonstrate e2e tests written with Cypress running on GitHub Actions",
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
