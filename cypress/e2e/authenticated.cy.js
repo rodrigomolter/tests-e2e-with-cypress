@@ -33,7 +33,7 @@ describe('Scenarios where authentication is a pre-condition', () => {
       .should('be.equal', 'Complete')
   })
 
-  it('logs out', () => {
+  it('logs out', { tags: '@desktop-and-tablet' },() => {
     cy.gui_logout()
     cy.wait('@getNotes')
     cy.get('#email').should('be.visible')

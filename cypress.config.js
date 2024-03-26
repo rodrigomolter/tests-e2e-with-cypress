@@ -11,6 +11,10 @@ module.exports = defineConfig({
       requestMode: true,
       viewportWidthBreakpoint: 768,
     },
+    setupNodeEvents(on, config) {
+      require('@cypress/grep/src/plugin')(config)
+      return config
+    },
     experimentalRunAllSpecs: true,
   },
   video: false,
