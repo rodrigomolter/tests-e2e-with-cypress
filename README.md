@@ -2,7 +2,7 @@
 
 Sample project to demonstrate end-to-end (e2e) tests written with [Cypress](https://cypress.io) running on GitHub Actions.
 
-## Pre-requirements
+## Pre-requirements 📋
 
 To clone and run this project, you will need:
 
@@ -12,11 +12,11 @@ To clone and run this project, you will need:
 
 **Note:** When installing Node.js, npm is automatically installed. 🚀
 
-## Installation
+## Installation 🏗️
 
 To install the dev dependencies, run `npm install` (or `npm i` for short.)
 
-## Configuring the environment variables
+## Configuring the environment variables 🌲
 
 Before running the tests, some environment variables need to be set up.
 
@@ -24,21 +24,25 @@ Make a copy of the [`cypress.env.example.json`](./cypress.env.example.json) file
 
 **Note:** The `cypress.env.json` file is not tracked by git since it's listed in the `.gitignore` file.
 
-## Running the tests
+## Running the tests ✔️
 
 In this project, you can run tests in interactive and headless modes, both on desktop and tablet viewports.
 
-### Headless mode
+### Headless mode </>
 
-Run `npm test` (or `npm t` for short) to run all tests in headless mode using a desktop viewport.
+Run `npm test` (or `npm t` for short) to run all tests in headless mode using a desktop viewport. 💻
 
-Run `npm run test:tablet` to run the appropriate tests in headless mode using a tablet viewport.
+Run `npm run test:tablet` to run the appropriate tests in headless mode using a tablet viewport. 📱
 
-### Interactive mode
+### Interactive mode 🕹️
 
-Run `npm run cy:open` to open the __Cypress App__ to run tests in interactive mode using a desktop viewport.
+Run `npm run cy:open` to open the __Cypress App__ to run tests in interactive mode using a desktop viewport. 💻
 
-Run `npm run cy:open:tablet` to open the __Cypress App__ to run tests in interactive mode using a tablet viewport.
+Run `npm run cy:open:tablet` to open the __Cypress App__ to run tests in interactive mode using a tablet viewport. 📱
+
+## Support this project 🙌
+
+If you want to support this project, leave a ⭐.
 
 ___
 
