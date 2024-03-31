@@ -13,9 +13,20 @@
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
     "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigomolter/tests-e2e-with-cypress.git"
+  },
+  "keywords": [
+    "Cypress",
+    "E2E Testing"
+  ],
+  "author": "Rodrigo Molter <rodrigo.molter@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigomolter/tests-e2e-with-cypress/issues"
+  },
+  "homepage": "https://github.com/rodrigomolter/tests-e2e-with-cypress#readme",
   "devDependencies": {
     "@cypress/grep": "^4.0.1",
     "@faker-js/faker": "^8.4.1",
