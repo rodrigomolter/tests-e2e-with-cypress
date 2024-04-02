@@ -2,6 +2,7 @@
 
 Sample project to demonstrate end-to-end (e2e) tests written with [Cypress](https://cypress.io) running on GitHub Actions.
 
+The AUT it's a simple note taking app called [Scratch](https://notes-serverless-app.com')
 ## Pre-requirements 📋
 
 To clone and run this project, you will need:
@@ -20,9 +21,13 @@ To install the dev dependencies, run `npm install` (or `npm i` for short.)
 
 Before running the tests, some environment variables need to be set up.
 
-Make a copy of the [`cypress.env.example.json`](./cypress.env.example.json) file as `cypress.env.json`, and set the appropriate values for all the variables.
+You will need a [Mailsaur](https://mailosaur.com/) account (_It gives you a 15 days free trial._)<br>
+After creating an account, create a project. Go to `Server API Keys` and create a new API Key. Call it test-e2e and save the key. 
 
-**Note:** The `cypress.env.json` file is not tracked by git since it's listed in the `.gitignore` file.
+Make a copy of the [`cypress.env.example.json`](./cypress.env.example.json) file as `cypress.env.json`, and set the appropriate values for all the variables, including the API Key we set up before.<br>
+_**Note:** The `cypress.env.json` file is not tracked by git since it's listed in the `.gitignore` file._
+
+You also will need to copy the `server ID` in the Mailosaur page, and update it in the [`cypress.config.js`](./cypress.config.js)
 
 ## Running the tests ✔️
 
